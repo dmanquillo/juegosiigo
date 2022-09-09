@@ -6,7 +6,7 @@
 
 Vamos a tener 5 parámetros de búsqueda en el API, cada parámetro tiene un respectivo flujo en la lógica para obtener información de referencia para cada legado, los siguientes parámetros de búsqueda son los siguientes:
 
-1. Búsqueda DNI:  
+** 1. Búsqueda DNI: **  
 
     Si hay información en el queryParam de "document type", "document number" y "gender"; se va a proceder en hacer las búsquedas en los tres sistemas que son FAN, OPEN y TABLÓN; donde vamos a hacer después un mapeo de los datos para tener un response unificado.
 
